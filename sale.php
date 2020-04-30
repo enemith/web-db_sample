@@ -57,7 +57,7 @@ td input{
     $('.input_price').on('change', function(){
       var ind = $(this).data('index');
       var sind = $('#sel_' + ind).prop("selectedIndex");
-      var single_price = $('#sel_0 option').eq(sind).data('perice');
+      var single_price = $('#sel_0 option').eq(sind).data('price');
       var subtotal = single_price * $(this).val();
       var total_price = 0;
 
