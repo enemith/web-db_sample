@@ -10,6 +10,7 @@ require_once("db_head.php");
   echo "<h1>".$_SESSION['user_data']['name_a']."さんのメニュー</h1>";
   ?>
   <a href="user_list.php">データ一覧</a>
+  <a href="sale.php">購入</a>
   <hr>
   <a href="logout.php">ログアウト</a>
 </body>
