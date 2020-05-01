@@ -30,7 +30,7 @@ td input{
       <?php for ($i=0; $i < 3 ; $i++) : // 3回の繰り返し ?>
         <tr>
           <td>
-            <select name="sale[item_id]" id="sel_<?php echo $i; ?>">
+            <select name="sale[item_id][]" id="sel_<?php echo $i; ?>">
               <option value="">-</option>
               <?php
               // itemテーブルから品名とIDを取得
