@@ -52,6 +52,9 @@ td input{
     <input type="submit" value="登録">
   </form>
 
+  <br><br><br>
+  <a href="menu.php">メニュー</a>
+
   <script>
   $(function(){
     $('.input_price').on('change', function(){
