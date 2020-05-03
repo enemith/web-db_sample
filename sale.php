@@ -48,7 +48,7 @@ td input{
     </table>
     <hr>
     <p>合計金額 <span id="total_price">0円</span></p>
-    <input type="hidden" name="user[user_id]" value="<?php echo $_SESSION['user_data']['id']; ?>">
+    <input type="hidden" name="sale[user_id]" value="<?php echo $_SESSION['user_data']['id']; ?>">
     <input type="submit" value="登録">
   </form>
 
