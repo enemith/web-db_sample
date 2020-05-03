@@ -11,6 +11,7 @@ require_once("db_head.php");
   ?>
   <a href="user_list.php">データ一覧</a>
   <a href="sale.php">購入</a>
+  <a href="sale_list.php">レシート一覧</a>
   <hr>
   <a href="logout.php">ログアウト</a>
 </body>
